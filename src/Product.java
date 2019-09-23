@@ -13,6 +13,11 @@ public class Product {
         price = 0.0;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     // Get and set accessors for the code, description, and price instance variables
     // Create public access for the count variable
     public static int getCount() {

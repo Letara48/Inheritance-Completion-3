@@ -11,6 +11,11 @@ public class Book extends Product {
         super();
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public String getAuthor() {
         return author;
     }

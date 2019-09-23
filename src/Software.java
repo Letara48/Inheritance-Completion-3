@@ -6,6 +6,11 @@ public class Software extends Product {
 
     public Software(){}
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public String getProgrammer() {
         return programmer;
     }
