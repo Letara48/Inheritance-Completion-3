@@ -42,11 +42,5 @@ public class Main {
         System.out.println("OS:         "+ ones.getOs() + "\n" + "Platform:           " + ones.getPlatform() + "\n" +
                 "Programmer:         " + ones.getProgrammer() + "\n" + ones.toString());
 
-
-
-
-
-
     }
-
 }
